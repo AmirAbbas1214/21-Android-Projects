@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Instructions" />
+
+        <TextView
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_enable_single_mode" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="6dp"
+            app:cardElevation="3dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:text="@string/single_target_mode" />
+
+                <TextView
+                    android:enabled="false"
+                    android:id="@+id/single_mode_settings_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Settings"
+                    android:drawableLeft="@drawable/ic_setting"
+                    android:drawablePadding="10dp"
+                    />
+
+                <TextView
+                    android:enabled="false"
+                    android:id="@+id/single_mode_usage_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Instructions"
+                    android:drawableLeft="@drawable/ic_info"
+                    android:drawablePadding="10dp" />
+
+                <RelativeLayout
+                    android:id="@+id/tap_item3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp">
+
+                    <Button
+                        android:enabled="false"
+                        android:textColor="@color/white_smoke"
+                        android:id="@+id/enable_single_mode_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/enable"
+                        android:backgroundTint="@color/colorAccent" />
+
+                    <ImageView
+                        android:id="@+id/pip"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/tap_indicator"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/point_view"
+                app:tint="@color/md_blue_A400"
+                android:src="@drawable/ic_play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/instructions_drag_target"
+                android:layout_toLeftOf="@+id/point_view" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/move_panel"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_move"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                app:tint="@color/md_grey_700" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/instructions_drag_movable"
+                android:layout_toLeftOf="@+id/move_panel" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/play"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_play"
+                android:layout_alignParentEnd="true"
+                app:tint="@color/md_blue_A400"
+                android:layout_alignParentRight="true" />
+
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="@string/instructions_play_mode"
+                android:layout_toLeftOf="@+id/play" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

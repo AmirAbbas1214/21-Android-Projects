@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1030500362028",
+    "project_id": "savvy-dde75",
+    "storage_bucket": "savvy-dde75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030500362028:android:131f5cfff2a604546bae89",
+        "android_client_info": {
+          "package_name": "com.example.savvy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030500362028-ctrr7c5u3uqk3qdkjsratsbc4ch90uhv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.savvy",
+            "certificate_hash": "6764aa3328bb024ea1cfb20ec4180030c3b6ae87"
+          }
+        },
+        {
+          "client_id": "1030500362028-ojvjr20h184cplhrpmbpcadht2eqcb90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjIjMJCDAnHCTII5eKjW0Vn4pqHxfZirA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030500362028-ojvjr20h184cplhrpmbpcadht2eqcb90.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

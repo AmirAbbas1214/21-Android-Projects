@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="Q1">Imran Khan Is Prime Minister of Pakistan</string>
+    <string name="Q2">H2o is OXYGEN</string>
+    <string name="Q3">Android is a part of Google</string>
+    <string name="Q4">Android lunch in 2008</string>
+    <string name="Q5">Python use in Android Develpment</string>
+    <string name="Q6">Pakistan is a Muslim Country</string>
+    <string name="TrueC">Your Answar is Correct</string>
+    <string name="FalseW">Your Answar is Wrong</string>
+</resources>

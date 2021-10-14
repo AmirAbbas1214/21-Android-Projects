@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Auto Clicker</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="instructions_enable_single_mode">1. Enable Single target mode</string>
+    <string name="single_target_mode">Single target mode</string>
+    <string name="instructions_drag_target">2.1. Drag the target overlay anywhere you want to perform click</string>
+    <string name="instructions_drag_movable">2.2. Drag the Movable icon to move the overlay panel</string>
+    <string name="instructions_play_mode">3. Tap to Play button to run clicking</string>
+    <string name="click_interval_desc">The interval time between each click</string>
+    <string name="warning_time_too_small">The time below 40 milliseconds can freeze your device</string>
+
+</resources>
